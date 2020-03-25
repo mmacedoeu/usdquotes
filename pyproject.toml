@@ -1,0 +1,34 @@
+# See PEP 518: https://www.python.org/dev/peps/pep-0518/ for info on this file's structure.
+
+[tool.pyflow]
+name = "usdquotes"
+py_version = "3.8"
+version = "0.1.0"
+authors = ["mmacedoeu <contato@mmacedo.eu.org>"]
+description = "Get smallest currenty again dolar"
+homepage = "https://github.com/mmacedoeu/usdquotes"
+repository = "https://github.com/mmacedoeu/usdquotes"
+license = "MIT"
+keywords = ["finance", "currency", "quotes"]
+classifiers = [
+    "Topic :: System :: Hardware",
+    "Topic :: Scientific/Engineering :: Human Machine Interfaces",
+]
+python_requires = ">=3.6"
+# If not included, will default to `test.pypi.org`
+package_url = "https://upload.pypi.org/legacy/"
+
+[tool.pyflow.scripts]
+run = "usdquotes:main"
+
+[tool.pyflow.dependencies]
+prompt_toolkit = "^3.0.4"
+typer = { version = "^0.1.0", extras = ["all"] }
+#colorama = "^0.4.3"
+#shellingham = "^1.3.2"
+halo = "^0.0.29"
+
+
+[tool.pyflow.dev-dependencies]
+pytest = "^5.4.1"
+
