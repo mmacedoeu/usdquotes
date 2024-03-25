@@ -4,7 +4,7 @@ appdirs==1.4.3
 async-timeout==3.0.1
 asyncio==3.4.3
 attrs==19.3.0
-black==19.10b0
+black==24.3.0
 brotlipy==0.7.0
 cchardet==2.1.6
 cffi==1.14.0
